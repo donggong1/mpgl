@@ -34,7 +34,7 @@ In Thirty-First AAAI Conference on Artificial Intelligence (AAAI), 2017.*
 #### Compile *MPGL* solver in C++
 + Set `openblas_path = 'your/openblas/path/'` in *makemexfiles.m*;
 + Run `makemexfiles` in MATLAB and get the *.mex** files.
-
++ We also provide a [package](https://drive.google.com/file/d/0B-97Ea7lyH5bODN5RFYzTk8ySVk/view?usp=sharing) with the compiled *mex* files. 
 
 #### Test MPGL
 + Run `script_gendata` to generate synthetic data for testing. 
