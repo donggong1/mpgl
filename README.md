@@ -16,7 +16,7 @@ In Thirty-First AAAI Conference on Artificial Intelligence (AAAI), 2017.*
 }
 ````
 
-+ This implementation is based on MATLAB and C++ with an MEX interface. The main framework and the entry of the algorithm is implemented in MATLAB. The most time consuming core part is implemented in C++ with MEX interface for high efficiency.
++ This implementation is based on MATLAB and C++ with an MEX interface. The main framework and the entry of the algorithm is implemented in MATLAB. The most time consuming core part is implemented in C++ with MEX interface for high efficiency. An external library [OpenBLAS](http://www.openblas.net/) is required.
 
 + As shown in our paper, the MPGL algorithm and this implementation is both efficient and effective for many applications related to the generalized LASSO problem. 
 
@@ -27,6 +27,7 @@ In Thirty-First AAAI Conference on Artificial Intelligence (AAAI), 2017.*
 + Download the [source](https://github.com/xianyi/OpenBLAS) to *your/openblas/path/*;
 + Run `Make`;
 + Copy the required *.h* files (i.e. *cblas.h* and *openblas_config.h*) to the *mpgl/mxsolver/*.
++ This instruction is for Linux and OSX.
 + More details for compiling and installation of OpenBLAS can be found from https://github.com/xianyi/OpenBLAS.
 
 

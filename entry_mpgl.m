@@ -1,6 +1,6 @@
 % entry_mpgl
 addpath('utils');
-addpath('solver_lr')
+addpath('solver_ls')
 addpath('solver_proj')
 addpath('mexsolver')
 
@@ -12,7 +12,7 @@ if(~exist(outpath, 'dir'))
 end
 %%
 n = 1000;
-name = ['syn_1dgfl_dim_', num2str(n), '.mat'];
+name = ['syn_1dfl_dim_', num2str(n), '.mat'];
 % n = 10000;
 % name = ['syn_1dgfl_proj_dim_', num2str(n), '.mat'];
 load([inpath, name]);
